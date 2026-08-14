@@ -2,6 +2,8 @@
 # scPred Model Training and Prediction
 ###############################################################
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Xinlei-Gao/scRNAseq_cell_type_classification/blob/master/LICENSE)
+
 This project includes scripts for training an scPred model using Tabula Sapiens data and predicting cell labels on a query dataset using the pre-trained model.
 
 ###############################################################
