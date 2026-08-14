@@ -1,14 +1,10 @@
-###############################################################
 # scPred Model Training and Prediction
-###############################################################
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Xinlei-Gao/scRNAseq_cell_type_classification/blob/master/LICENSE)
 
 This project includes scripts for training an scPred model using Tabula Sapiens data and predicting cell labels on a query dataset using the pre-trained model.
 
-###############################################################
 ## Dependencies
-###############################################################
 R packages: scPred, Seurat, magrittr, doParallel, cowplot, ComplexHeatmap
 
 These packages have been installed on the Rstudio server, so that you could directly run the scripts on server.
@@ -21,9 +17,7 @@ doParallel (version 1.0.17)
 cowplot (version 1.1.1)
 ComplexHeatmap (version 2.14.0)
 
-###############################################################
 ## Project Structure
-###############################################################
 ```
 scRNAseq_cell_type_classification/
 │
@@ -71,9 +65,7 @@ scRNAseq_cell_type_classification/
 └── README.md             # Documentation file
 ```
 
-##############################################################
 ## Usage
-##############################################################
 
 ### 1. Prepare your reference dataset
 
