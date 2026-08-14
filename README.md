@@ -24,6 +24,7 @@ ComplexHeatmap (version 2.14.0)
 ###############################################################
 ## Project Structure
 ###############################################################
+```
 scRNAseq_cell_type_classification/
 │
 ├── train_model.sh           # Shell script to train the model
@@ -67,7 +68,8 @@ scRNAseq_cell_type_classification/
 │   ├── confusion_matrix_heatmap.pdf    # Heatmap showing predicted labels as rows and true labels as columns for comparison
 │   ├── scPred_cell_type_prediction_score_matrix.rds    # saved data matrix containing the probability score of each cell predicted as a certain cell type
 │
-└── README                # Documentation file
+└── README.md             # Documentation file
+```
 
 ##############################################################
 ## Usage
