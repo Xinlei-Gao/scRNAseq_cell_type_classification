@@ -1,0 +1,28 @@
+The Tabula Muris data (SMART-Seq) is downloaded from:
+https://figshare.com/articles/dataset/Single-cell_RNA-seq_data_from_Smart-seq2_sequencing_of_FACS_sorted_cells_v2_/5829687
+
+This data set includes 20 tissues.
+
+The full list of all the tissues are in this file:
+Tabula_Muris_SMART-seq_tissue_list.txt
+
+
+The website stores both count matrices and Seurat object files. However, the Seurat object is built by Seurat version 2.
+
+In this folder, I created Seurat object (version 4) for each tissue and for all the cells.
+
+The Seurat object for all the Tabula Muris cells: 
+full_seurat_object.rds
+
+The Seurat Object for each tissue:
+[tissue_name]_seurat_object.rds
+
+I built pre-trained model using scPred for each tissue and all the cells.
+
+The pre-trained model for all the cells:
+Tabula_muris_all_default_model.rds
+
+The pre-trained model for each tissue:
+Tabula_muris_[tissue_name]_default_model.rds
+
+These models use gene symbol as their gene IDs.
